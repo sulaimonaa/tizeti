@@ -104,7 +104,7 @@ body {
     margin: 70px auto;
 }
 .inc-main-page-header-top{
-    margin: 150px auto;
+    margin: 400px auto;
 }
 .main-page .main-page-header h4 {
     line-height: 80px !important;
@@ -216,6 +216,10 @@ body {
       .ulbar{
         position: relative;
     }
+    .navbar-dark .navbar-nav .nav-link,
+    .navbar-dark .navbar-nav .nav-link.active{
+        width: 100%;
+    }
     .main-page .main-page-header h4{
         margin-left: 10px
     }
@@ -258,6 +262,10 @@ body {
     }
     .ulbar{
         position: relative;
+    }
+    .navbar-dark .navbar-nav .nav-link,
+    .navbar-dark .navbar-nav .nav-link.active{
+        width: 100%;
     }
     .main-page .main-page-header h4{
         margin-left: 10px
