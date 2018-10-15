@@ -237,7 +237,7 @@ body {
     }
 
     .footer-con {
-        height: 200px;
+        height: 130px !important;
     }
     .footer-content{
         text-align: center;
@@ -277,7 +277,7 @@ body {
     margin: 0;
     }
     .footer-con {
-        height: 200px;
+        height: 130px !important;
     }
     .footer-content{
         text-align: center;
