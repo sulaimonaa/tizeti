@@ -20,8 +20,9 @@ $(".log-out .fund-wallet").hover(
 );
 
 /* Collapse effect */
-$(".navbar-collapse .collapse .show")(
+$("button .navbar-toggler").click(
         function(){
             $(".main-page").addClass("inc-main-page-header-top");
+            $(".main-page").removeClass("inc-main-page-header-top");
               }
               );
