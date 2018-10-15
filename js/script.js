@@ -22,6 +22,6 @@ $(".log-out .fund-wallet").hover(
 /* Collapse effect */
 $(".navbar-collapse .collapse .show")(
         function(){
-            $(".main-page-header).addClass("inc-main-page-header-top");
+            $(".main-page").addClass("inc-main-page-header-top");
               }
               );
