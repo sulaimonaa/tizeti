@@ -103,7 +103,9 @@ body {
     background: #f4f2f2;
     margin: 70px auto;
 }
-
+.inc-main-page-header-top{
+    margin: 150px auto;
+}
 .main-page .main-page-header h4 {
     line-height: 80px !important;
     color: #939292;
