@@ -1,0 +1,241 @@
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.top-header {
+    background: #fff !important;
+    box-shadow: 1px 0 2px #69b6e0;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.logo {
+    padding-right: 0 !important;
+    padding-left: 90px;
+}
+
+.ulbar {
+    margin: 0 auto !important;
+    position: absolute;
+    margin-top: 1px !important;
+}
+
+.navbar-brand > img {
+    width: 100px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #333;
+    width: 120px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 22px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #333;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #333;
+    border-bottom: 5px solid #69b6e0;
+}
+
+.list-menu {
+    width: 80%;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.log-out ul {
+    display: inline-flex;
+}
+
+.log-out ul li.fund-wallet,
+.log-out ul li.renew-plan {
+    width: 100px !important;
+    margin: 10px;
+    box-shadow: 1px 2px 1px 1px #333;
+    color: #fff !important;
+    font-size: 14px;
+    padding: 5px;
+    text-align: center;
+    list-style: none;
+    cursor: pointer;
+}
+
+.log-out ul li.renew-plan {
+    background: #69b6e0;
+    box-shadow: 1px 1px 15px #69b6e0;
+    padding: 5px;
+}
+
+.power-icon {
+    line-height: 3;
+    margin: 0 0 0 40px;
+}
+
+.log-out ul li.fund-wallet {
+    background: #03af2b;
+    box-shadow: 1px 1px 20px #69b6e0;
+    padding: 5px;
+}
+
+.log-out ul {
+    margin: 10px 0 0 0;
+}
+
+.main-page {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    background: #f4f2f2;
+    margin: 70px auto;
+}
+
+.main-page .main-page-header h4 {
+    line-height: 80px !important;
+    color: #939292;
+    width: 90%;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.main-page-content {
+    width: 80%;
+    margin: 30px auto;
+    padding: 30px;
+}
+
+.payment {
+    margin: 20px 100px 20px 140px;
+}
+
+.form-inline .form-group {
+    display: block;
+}
+
+.form-inline label {
+    justify-content: left !important;
+    margin: 0 0 10px 0;
+}
+
+.inp {
+    padding-left: 0;
+}
+
+.chat {
+    float: right;
+    margin-right: 20px;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+    background: #03af2b;
+    cursor: pointer;
+}
+
+.chat > img {
+    width: 50%;
+    margin: 15px;
+}
+
+.footer-con {
+    width: 100%;
+    height: 70px;
+    background: #69b6e0;
+    clear: both;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+}
+
+.selCol {
+    width: 80% !important;
+    box-shadow: 0px 1px 1px 0px #69b6e0;
+}
+
+.sub-btn {
+    background: #69b6e0;
+    margin: 35px 0 0 0;
+    box-shadow: 1px 1px 15px #69b6e0;
+    border: none;
+    border-radius: 0;
+    width: 100px;
+}
+
+.foot-left {
+    float: left;
+    color: #fff;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.foot-right {
+    float: right;
+    color: #fff;
+    line-height: 30px;
+    margin-right: 20px;
+}
+
+.fab {
+    margin-right: 20px;
+}
+
+.ewallet {
+    border: none;
+}
+
+/* Responsiveness */
+@media (max-width: 480px) {
+    .navbar-toggler {
+        background: #69b6e0 !important;
+    }
+
+    .logo {
+        text-align: left;
+        padding-left: 0;
+        width: 50%;
+    }
+
+    .list-menu {
+        width: 50%;
+        padding-left: 70px !important;
+    }
+
+    .footer-con {
+        height: 200px;
+    }
+}
+
+@media (max-width: 320px) {
+    .navbar-toggler {
+        background: #69b6e0 !important;
+    }
+
+    .logo {
+        text-align: left;
+        padding-left: 0;
+        width: 50%;
+    }
+
+    .list-menu {
+        width: 50%;
+        padding-left: 70px !important;
+    }
+
+    .footer-con {
+        height: 200px;
+    }
+}
